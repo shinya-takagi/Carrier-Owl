@@ -1,11 +1,12 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:nucl-th.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        fission: 3
+        fusion: 3
+        langevin: 2
+        dynamics: 2
 
 # 通知の閾値
 score_threshold: 0
