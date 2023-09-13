@@ -24,9 +24,11 @@ jobs:
         with:
           poetry-version: 1.2.0
 
+      - name: lock poetry
+        run: poetry lock
+
       - name: install dependencies
         run: 
-          poetry lock
           poetry install
 
       - name: Run owl
